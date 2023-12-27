@@ -1,19 +1,14 @@
-accountant:
-  company: kpmg
-  email: accountant@kpmg.com
+vishal:
+  company: wipro
+  email: vishal@technomatz.com
   encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
 
-manager:
-  company: kpmg
-  email: manager@kpmg.com
+aman:
+  company: tcs
+  email: aman@technomatz.com
   encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
 
-eavesdropper:
-  company: pwc
-  email: eavesdropper@pwc.com
-  encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>
-
-manager:
+abhishekh:
   company: technomatz
-  email: asoni@technomatz.com
+  email: abhishekh@technomatz.com
   encrypted_password: <%= Devise::Encryptor.digest(User, 'password') %>

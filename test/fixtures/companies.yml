@@ -1,8 +1,8 @@
-kpmg:
-  name: KPMG
-
-pwc:
-  name: PwC
-
 technomatz:
   name: Technomatz
+
+wipro:
+  name: Wipro
+
+tcs:
+  name: TCS
